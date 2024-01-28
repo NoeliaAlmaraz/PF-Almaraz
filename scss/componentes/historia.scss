@@ -1,0 +1,94 @@
+
+
+
+
+.historia{
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    line-height: 1.5;
+    gap: 50px 0;
+}
+
+.historia-img img {
+   
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.mainpagehistoria--div {
+    padding: 0 150px 0 150px;
+}
+
+.title {
+    font-size: 2em;
+    color: #fe701a;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 400;
+    color: #fe701a;
+    text-align: center;
+}
+
+.mainpagestrong {
+    color: #fe701a;
+}
+
+.h2paginas {
+    color: #fe701a;
+    font-size: 3em;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+
+
+.articlepaginas {
+    border: 2px solid #fe701a;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 15px;
+    max-width: 100%;
+    a {
+        text-decoration: none;
+        color: #fe701a;
+        font-size: 1.5em; 
+    }
+    &:active {
+        border: 2px solid #000000;
+        background-color: #fe701a;
+        color: #000000  
+    }
+
+}
+
+
+
+.paginasmp {
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.img-paginas {
+    width: 193px;
+    height: 193px;
+}
+
+.card-body > a {
+    text-decoration: underline;
+    color: #fe701a;
+}

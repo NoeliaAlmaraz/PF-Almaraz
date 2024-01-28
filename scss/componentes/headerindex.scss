@@ -1,0 +1,34 @@
+
+
+
+
+
+.backvideo{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;/*cubre todo el contenedor sin deformar*/
+
+}
+
+.color--text{
+    color: #ffffff;
+    &:hover {
+        color: #fe904d;
+        text-decoration: underline;
+    }
+}
+
+
+
+.h1mp{
+    position: relative;
+    color: #ffffff;
+    text-align: center; 
+}
+
+strong{
+    color: #fe904d;
+}
+
+

@@ -1,0 +1,16 @@
+
+//Reset
+@import 'reset/maps.scss';
+@import 'reset/var.scss';
+@import 'reset/reset.scss';
+
+
+//Estructura principal
+@import 'componentes/headerindex.scss';
+@import 'componentes/historia.scss';
+@import 'componentes/bs.scss';
+@import 'componentes/footer.scss';
+
+
+//Media Queris 
+@import 'reset/mediaq.scss';
