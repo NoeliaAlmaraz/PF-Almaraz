@@ -1,23 +1,23 @@
 
 
 footer{
-    background-color: #fe701a;
-    gap: 5px;
-    padding-top: 5px;
+    background-color: $color-primario ;
+    gap: map-get($medidas, rem-sm) ;
+    padding-top: map-get($medidas, rem-sm) ;
     justify-content: space-around;
-    padding-bottom: 5px;
+    padding-bottom: map-get($medidas, rem-sm) ;
     text-align: center;
     p {
-        background-color: #000000;
-        color: #fe701a;
-        border-radius: 10px;
+        background-color: $color-bg;
+        color: $color-primario ;
+        border-radius: map-get($medidas, rem-s) ;
     }
     img {
         width: 100px;
         height: auto;
-        background-color: #000000;
-        color: #fe701a;
-        border-radius: 10px;
+        background-color: $color-bg;
+        color: $color-primario ;
+        border-radius: map-get($medidas, rem-s);
         position: relative;
     }
     a {
@@ -32,10 +32,10 @@ footer{
 a i.bxl-instagram-alt {
     position: relative;
     text-decoration: none;
-    color: #000000;
-    border-radius: 10px;
+    color: $color-bg;
+    border-radius: map-get($medidas, rem-s);
     width: 50px;
-    font-size: 40px;
+    font-size: map-get($medidas, rem-xl);
 }
 
 

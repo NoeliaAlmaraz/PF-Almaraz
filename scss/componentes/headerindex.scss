@@ -12,9 +12,9 @@
 }
 
 .color--text{
-    color: #ffffff;
+    color: $color-secundario;
     &:hover {
-        color: #fe904d;
+        color: $color-primario;
         text-decoration: underline;
     }
 }
@@ -23,12 +23,12 @@
 
 .h1mp{
     position: relative;
-    color: #ffffff;
+    color: $color-secundario;
     text-align: center; 
 }
 
 strong{
-    color: #fe904d;
+    color: $color-primario;
 }
 
 

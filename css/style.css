@@ -25,7 +25,7 @@
   color: #ffffff;
 }
 .color--text:hover {
-  color: #fe904d;
+  color: #fe701a;
   text-decoration: underline;
 }
 
@@ -36,13 +36,13 @@
 }
 
 strong {
-  color: #fe904d;
+  color: #fe701a;
 }
 
 .historia {
   color: #ffffff;
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
   margin: 0 auto;
   align-items: center;
   justify-items: center;
@@ -52,7 +52,7 @@ strong {
 
 .historia-img img {
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.6rem;
 }
 
 .mainpagehistoria--div {
@@ -86,7 +86,7 @@ strong {
 .articlepaginas {
   border: 2px solid #fe701a;
   background-color: #000000;
-  border-radius: 10px;
+  border-radius: 0.6rem;
   display: flex;
   flex-direction: column;
   padding-top: 15px;
@@ -106,7 +106,7 @@ strong {
 .paginasmp {
   text-align: center;
   max-width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0 auto;
 }
 
@@ -138,7 +138,7 @@ strong {
 }
 
 .border-custom {
-  border-bottom: 5px solid #fe701a;
+  border-bottom: 0.3rem solid #fe701a;
 }
 
 .bg-custom {
@@ -147,23 +147,23 @@ strong {
 
 footer {
   background-color: #fe701a;
-  gap: 5px;
-  padding-top: 5px;
+  gap: 0.3rem;
+  padding-top: 0.3rem;
   justify-content: space-around;
-  padding-bottom: 5px;
+  padding-bottom: 0.3rem;
   text-align: center;
 }
 footer p {
   background-color: #000000;
   color: #fe701a;
-  border-radius: 10px;
+  border-radius: 0.6rem;
 }
 footer img {
   width: 100px;
   height: auto;
   background-color: #000000;
   color: #fe701a;
-  border-radius: 10px;
+  border-radius: 0.6rem;
   position: relative;
 }
 footer a {
@@ -174,9 +174,9 @@ a i.bxl-instagram-alt {
   position: relative;
   text-decoration: none;
   color: #000000;
-  border-radius: 10px;
+  border-radius: 0.6rem;
   width: 50px;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 @media (min-width: 1000px) {

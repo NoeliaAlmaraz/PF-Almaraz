@@ -5,23 +5,23 @@
 }
 
 .btn-color {
-    color: #000000;
+    color: $color-bg;
 }
 
 
 .color-naranja {
-    color: #fe701a;
+    color: $color-primario;
 }
 
 .color-naranja:hover {
     text-decoration: underline;
-    color: #ffffff;
+    color: $color-secundario;
 }
 
 .border-custom{
-    border-bottom: 5px solid #fe701a;
+    border-bottom: map-get($medidas, rem-sm) solid $color-primario;
 }
 
 .bg-custom {
-    background-color: #fe701a;
+    background-color: $color-primario;
 }
